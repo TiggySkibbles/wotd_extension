@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Word of the Day Scraper",
+    "version": "1.0",
+    "description": "Scrapes and displays the Merriam-Webster Word of the Day in a custom UI.",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://www.merriam-webster.com/word-of-the-day"
+    ],
+    "action": {
+      "default_title": "Show Word of the Day"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "wotd.png"
+    }
+  }
+  
