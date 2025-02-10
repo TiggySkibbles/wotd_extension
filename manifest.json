@@ -10,9 +10,6 @@
     "host_permissions": [
       "https://www.merriam-webster.com/word-of-the-day"
     ],
-    "action": {
-      "default_title": "Show Word of the Day"
-    },
     "background": {
       "service_worker": "background.js"
     },
